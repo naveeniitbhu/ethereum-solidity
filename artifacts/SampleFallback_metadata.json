@@ -36,6 +36,32 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myNewUint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "receive"
 			}
@@ -68,11 +94,11 @@
 	},
 	"sources": {
 		"contracts/SampleFallback.sol": {
-			"keccak256": "0x8fd30660e87e25cecc01d9839a537860d41e0870eba30f162f5dab45aa3831cc",
+			"keccak256": "0x8b3e4448b9666f8aaa4cd05e0de7ae3b689e38ad01a28276243d5761ee79522c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://85880cdaaca4383727457075033866ccc9747c1f2565f867d6dbe16d547a6549",
-				"dweb:/ipfs/QmcWfJVVXFv4jrq3aVM5DjDxf7LFafMmV7k9MkNiTvhtQZ"
+				"bzz-raw://6bb226a289d0e61bf23d9165c182c98cc758472e3d56701121bbc3e91214ed96",
+				"dweb:/ipfs/QmQ6R4Vc69LSXpYoKa4sj18aDamZFYfL9hVVWQNreXCHaN"
 			]
 		}
 	},

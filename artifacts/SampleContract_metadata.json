@@ -1,10 +1,15 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
 			{
 				"inputs": [],
 				"name": "myString",
@@ -60,11 +65,11 @@
 	},
 	"sources": {
 		"contracts/SampleContract.sol": {
-			"keccak256": "0xe9e50bcee9828c6b678cf4f5f688f3b5acdafd4dbff6c5d6d69b6ac36341969a",
+			"keccak256": "0xdc5d5c21417210f8dcf308a4737c23711d384c7a4027cec6fb79bd028e51204e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a0692b69c9527ec03f3b79409f9685ac17803dda6ce0fd14a0f68a750ef336f0",
-				"dweb:/ipfs/QmZBdtUY7Zi6y78TiJ6YKLhHL2D94EeHuRpX5hrhZHzzTn"
+				"bzz-raw://0279129e6da829d136a823eb3b31b2d73d25db8914757cf9988f8490724bf140",
+				"dweb:/ipfs/QmT4NGSCBFDt7U6cm2Woc4gW4oRkgW6jmwhKuZtqGvuVFc"
 			]
 		}
 	},
