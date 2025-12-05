@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myUint",
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,19 +22,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newUint",
+						"name": "num",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyUint",
+				"name": "store",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
 			"version": 1
 		},
 		"userdoc": {
@@ -45,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts2/SampleDebugging.sol": "MyContract"
+			"contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -59,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts2/SampleDebugging.sol": {
-			"keccak256": "0xd89af0fd2e72693042eee6e0ba68f54bfced858933f49a9a29faf08cc7ed5f27",
-			"license": "MIT",
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xa3de51030e5784d1fc25677298a0bd61bf7eac541ca2fc94232f1b7dc5a89e21",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://280fc8e2d98baf2b67e205fd95aa12cdff11465ef70e7fb225e4d1cfce7966f9",
-				"dweb:/ipfs/QmTQSaTAzk7NTvZEy8cczCM9A8HRD8Apv3X2SAo6iafZVC"
+				"bzz-raw://aac95d61b7ce356e2da8d93eb66abfabbeadebb4f44d3d78fd14414e7ac918ba",
+				"dweb:/ipfs/QmZ6otiNvDfrWzEiQJBAdWUurwEvsemrbBZgD9hj6qSki1"
 			]
 		}
 	},
